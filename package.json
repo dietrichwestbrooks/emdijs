@@ -1,0 +1,38 @@
+{
+  "name": "emdijs",
+  "version": "0.0.6",
+  "description": "G2S EMDI JavaScript Client Library",
+  "main": "dist/index.js",
+  "type": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./src/tsconfig.lib.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dietrichwestbrooks/emdijs.git"
+  },
+  "keywords": [
+    "G2S",
+    "EMDI"
+  ],
+  "author": "Dietrich Westbrooks <dietrichwestbrooks1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dietrichwestbrooks/emdijs/issues"
+  },
+  "homepage": "https://github.com/dietrichwestbrooks/emdijs#readme",
+  "devDependencies": {
+    "@types/utf8": "^2.1.6",
+    "rollup": "^1.1.2",
+    "rollup-plugin-typescript": "^1.0.0",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "browser-xml2js": "^0.4.19",
+    "rxjs": "^6.4.0",
+    "utf8": "^3.0.0"
+  }
+}
